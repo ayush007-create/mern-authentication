@@ -2,7 +2,7 @@ import axios from 'axios'
 import React from 'react'
 import {create} from 'zustand'
 
-const url = "http://localhost:3000"
+const url = import.meta.env.MODE === "development" ? "http://localhost:3000" : "/"
 
 axios.defaults.withCredentials=true
 
