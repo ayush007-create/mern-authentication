@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import React from 'react'
 import './App.css'
-import FloatingShape from './components/floatingShape'
+import FloatingShape from './components/FloatingShape'
 import SignupPage from './pages/SignupPage'
 import LoginPage from './pages/LoginPage'
 import { ToastContainer } from 'react-toastify'
