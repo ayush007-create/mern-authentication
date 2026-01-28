@@ -15,7 +15,7 @@ app.use(cookieParser())
 
 dotenv.config()
 
-app.use('/', approuter)  // API routes first
+app.use('/api', approuter)  // API routes first
 
 if (process.env.NODE_ENV === "production") {
 	const frontendPath = path.join(__dirname, '../frontend/dist'); // go up one level, then frontend/dist
